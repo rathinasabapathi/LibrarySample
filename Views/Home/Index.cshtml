@@ -1,0 +1,29 @@
+﻿
+@{    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-secondary">Please select a book</div>
+            <div class="card-body">
+                <div id="divBookList" class="list-group"></div>
+            </div>
+        </div>       
+    </div>
+    <div class="col-8">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="txtSearch">
+            <button class="btn btn-primary" type="button" id="btnSearch">Search</button>
+        </div>
+        <div class="card">
+            <div id="divWordHeader" class="card-header bg-secondary">Please select a book</div>
+            <div class="card-body">
+                <table id="tblWords" class="table"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
